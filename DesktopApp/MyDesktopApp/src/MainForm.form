@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b54e9" binding="collapseButtonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="dcc1c" class="javax.swing.JButton" binding="buttonCollapse">
+            <constraints/>
+            <properties>
+              <label value="Collapse"/>
+              <text value="Collapse"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e7284" binding="familyPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="88f49" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Фамилия"/>
+            </properties>
+          </component>
+          <component id="1edcc" class="javax.swing.JTextArea" binding="textFamily">
+            <constraints/>
+            <properties>
+              <preferredSize width="400" height="17"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ea49f" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="4388" binding="namePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d2c9" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Имя"/>
+                </properties>
+              </component>
+              <component id="522d6" class="javax.swing.JTextArea" binding="textName">
+                <constraints/>
+                <properties>
+                  <preferredSize width="400" height="17"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a79bb" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="ca27e" binding="middleNamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="26552" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <text value="Отчество"/>
+                    </properties>
+                  </component>
+                  <component id="d2e82" class="javax.swing.JTextArea" binding="textMiddleName">
+                    <constraints/>
+                    <properties>
+                      <minimumSize width="1" height="17"/>
+                      <preferredSize width="400" height="17"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b5553" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="26da1" binding="fNMnPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <visible value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="2fd24" class="javax.swing.JLabel" binding="FNMn">
+                        <constraints/>
+                        <properties>
+                          <text value="ФИО"/>
+                        </properties>
+                      </component>
+                      <component id="aaa02" class="javax.swing.JTextArea" binding="textFNMn">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="400" height="17"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="66e6c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="e24a9" binding="expandButtonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <visible value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="30856" class="javax.swing.JButton" binding="buttonExpand">
+                            <constraints/>
+                            <properties>
+                              <text value="Expand"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
